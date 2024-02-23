@@ -51,7 +51,7 @@ Sinta-se à vontade para **explorar** o código-fonte, **contribuir** e **compar
 
 ## 👋 Welcome
 
-Welcome to the repository dedicated to documenting my **first experience** with Web Development, through the _HTML and CSS_ course taught by _Professor Gustavo Guanabara_ from _CursoemVídeo_.
+Welcome to the repository dedicated to documenting my **first experience** with Web Development, through the _HTML_ and _CSS_ course taught by _Professor Gustavo Guanabara_ from _CursoemVídeo_.
 
 <br />
 
