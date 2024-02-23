@@ -7,7 +7,7 @@
 
 ### 👋 Bem-vindo(a) 
 
-Esse repositório é dedicado ao registro do meu **primeiro contato** com o Desenvolvimento Web, por meio do curso de _HTML_ e _CSS_ ministrado pelo _Professor Gustavo Guanabara_ do _CursoemVídeo_.
+Seja muito bem vindo(a) ao repositório dedicado ao registro do meu **primeiro contato** com o Desenvolvimento Web, por meio do curso de _HTML_ e _CSS_ ministrado pelo _Professor Gustavo Guanabara_ do _CursoemVídeo_.
 
 <br />
 
@@ -51,7 +51,7 @@ Sinta-se à vontade para **explorar** o código-fonte, **contribuir** e **compar
 
 ## 👋 Welcome
 
-This repository is dedicated to documenting my **first experience** with Web Development, through the _HTML and CSS_ course taught by _Professor Gustavo Guanabara_ from _CursoemVídeo_.
+Welcome to the repository dedicated to documenting my **first experience** with Web Development, through the _HTML and CSS_ course taught by _Professor Gustavo Guanabara_ from _CursoemVídeo_.
 
 <br />
 
