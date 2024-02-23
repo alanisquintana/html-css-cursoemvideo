@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="image.ico" type="image/x-icon">
+    
+    <title>Mídias em HTML5</title>
+    
+</head>
+<body>
+
+    <h1>
+        Imagem dinâmica
+    </h1>
+
+    <p>
+        Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+
+    <picture>
+
+     <source media="(max-width: 724px )" srcset="imagens/foto-p.png" type="image/png">
+
+     <source media="(max-width: 1024px)" srcset="imagens/foto-m.png" type="image/png">
+
+     <img src="imagens/foto-g.png" alt="Imagem flexível">
+
+    </picture>
+
+    <h1>
+        Vamos aprender a reproduzir áudios em HTML5
+    </h1>
+
+    <audio src="midia/guessillneverknow-tracktribe.mp3" controls preload="metadata"></audio>
+
+     <audio controls preload="metadata"> <!-- Eu também posso adicionar mais parâmetros dentro de "audio", como "autoplay" e "loop". --> 
+
+     <!-- As opções dentro de "preload" são "auto(a mídia vai ser carregada junto com o site mesmo se o cliente não der play, podendo deixar o site muito pesado se a mídia for pesada)", "none(a mídia não vai ser carregada junto com o site)" e "metadata(somente as informações da mídia vão ser carregadas junto ao site, como duração do áudio e etc)" -->
+
+     <source src="midia/girlontop-amylynnandthehoneymen.mp3" type="audio/mpeg">
+     <source src="midia/girlontop-amylynnandthehoneymen.ogg" type="audio/ogg">
+     <source src="midia/girlontop-amylynnandthehoneymen.wav" type="audio/wav">
+
+     <p>
+        Infelizmente o seu navegador não consegue reproduzir áudio.
+     </p>
+    
+     <br>
+
+     <a href="midia/girlontop-amylynnandthehoneymen.mp3" download="girlontop-amylynnandthehoneymen">Clique aqui para baixar o arquivo</a>
+
+</body>
+</html>

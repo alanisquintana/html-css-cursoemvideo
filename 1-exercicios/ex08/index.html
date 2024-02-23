@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="formatacao.ico" type="image/x-icon">
+    
+    <title>Formatação de Textos</title>
+
+    <style> 
+
+    mark {background-color: gainsboro;}
+
+    </style> <!--Para mudar a cor de cada "mark" individualmente, basta abrir "style" dentro da tag "mark" de abertura(após o "mark")-->
+
+</head>
+<body>
+    
+    <h1>
+        Principais Formatações
+    </h1>
+
+        <h2>
+            Negrito / Destaque
+        </h2>
+
+        <p>
+            Nesta frase temos um <b>termo em negrito</b> utilizando a tag <b>b(não semântica)</b>.
+        </p>
+
+        <p>
+            Nesta frase temos um <strong>termo em destaque</strong> utilizando a tag <strong>strong(semântica)</strong>.
+        </p>
+
+        <h2>
+            Itálico / Ênfase
+        </h2>
+        
+        <p>
+            Nesta frase temos um <i>termo em itálico</i> utilizando a tag <i>i(não semântica)</i>.
+        </p>
+
+        <p>
+            Nesta frase temos um <em>termo em ênfase</em> utilizando a tag <em>em(semântica)</em>.
+        </p>
+
+        <h2>
+            Texto marcado
+        </h2>
+
+        <p>
+            Podemos criar também <mark>um texto marcado</mark> usando a tag <mark>mark</mark>.
+        </p>
+
+        <h2>
+            Texto grande e pequeno
+        </h2>
+
+         <p>
+            Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.
+        </p>
+
+        <h2>
+            Texto deletado
+        </h2>
+
+        <p>
+            Podemos marcar <del>um texto como deletado</del> para indicar que ele deve ser lido, mas não considerado.
+        </p>
+
+        <h2>
+            Texto inserido
+        </h2>
+
+        <p>
+            Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.
+        </p><!--Este método é semântico, ou seja, acrescenta significado-->
+
+         <p>
+            Existe também o <u>sublinhado</u> com a tag u(não semântica)
+        </p>
+
+        <h2>
+            Texto sobrescrito
+        </h2>
+
+        <p>
+            Para inserir coisas do tipo x<sup>20</sup>+3.
+        </p>
+
+        <h2>
+            Texto subscrito
+        </h2>
+
+        <p>
+            Para inserir coisas do tipo H<sub>2</sub>O.
+        </p>
+
+    <h1>
+        Outras formatações
+    </h1>
+        <h2>
+            Código-fonte / Pré-formatação
+        </h2>
+
+        <p>
+            O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.
+        </p>
+
+          <pre>
+             <code>
+                num = int(input('Digite um número'))
+                if num % 2 == 0:
+                    print(f'O número{num} é PAR')
+                else:
+                    print(f'O número {num} é ÍMPAR')
+             </code>
+          </pre>
+
+        <h2>
+            Citações
+        </h2>
+
+        <p>
+            Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q>
+        </p>
+
+         <h2>
+            Citações completas
+        </h2>
+
+        <p>
+            Segundo José Augusto N. G. Manzano e Suely Alves de Toledo, no seu livro "Guia de Orientação e Desenvolvimento de Sites":
+        </p>
+
+        <blockquote cite="https://www.google.com.br/books/edition/Guia_de_Orienta%C3%A7%C3%A3o_e_Desenvolvimento_d/1YuwDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">Antes de começar a criar um site, é preciso planejar sua estrutura (home page e páginas adjacentes), definindo de forma clara e coerente a sequência das informações que deseja apresentar. 
+        </blockquote>
+
+        <h2>
+            Abreviações
+        </h2>
+
+        <p>
+            Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!
+        </p>
+
+         <h2>
+            Texto invertido
+        </h2>
+
+          <p>
+            <bdo dir="rtl">Este é um texto invertido.</bdo>
+        </p>
+
+</body>
+</html>

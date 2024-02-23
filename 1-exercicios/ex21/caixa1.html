@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="quadrado.ico" type="image/x-icon">
+
+    <title>Modelo de Caixas</title>
+
+    <!-- 
+    Eu posso transformar um bloco em inline e vice versa, apenas ajustando o display:
+    display: block;
+    display: inline;
+
+    Também existe o "display: inline-block", que permite que o inline tenha características de bloco, como altura e largura.
+    -->
+
+    <style>
+
+        h1 { /* box-level */
+            background-color: lightgray;
+            height: 50px;
+            width: 400px;
+
+            /* 
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;
+            */
+            border: 10px solid darkgray;
+
+            /* 
+            - Quando todos os valores são iguais, pode informar apenas um deles. 
+            - Também é possível colocar apenas dois números, eles vão representar cima/baixo e direita/esquerda.
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+            padding: 10px;
+            
+            /* 
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            */
+            margin: 20px 20px 40px 20px;
+
+            /* 
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: rgb(234, 234, 234);
+            */
+            outline: 5px dashed rgb(234, 234, 234);
+        }
+
+        a { /* inline-level */
+            border-width: 5px;
+            border-style: solid;
+            border-color: blue;
+
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>
+        Exemplo de caixa box-level
+    </h1>
+
+    <p>
+        Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.
+    </p>
+
+</body>
+</html>
